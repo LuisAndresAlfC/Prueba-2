@@ -1,5 +1,14 @@
 body{
     background: linear-gradient(to right, white, gray);
+    font-family:ChelseaMarket, sans-serif;
+}
+
+
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
 }
 
 #video1{
@@ -116,7 +125,10 @@ li{
 div.rotar{
 float: left;
 transform: rotate(15deg);
+}
 
+p::first-letter{
+font-size: 25px;
 }
 
 
